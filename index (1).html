@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUGHÈNTE Ristorante</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fefefe;
+      color: #1a1a1a;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #fff;
+    }
+    header img {
+      height: 100px;
+    }
+    .hero {
+      background-image: url('https://source.unsplash.com/featured/?restaurant');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 0 10px rgba(0,0,0,0.7);
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .dish {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #f8f8f8;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo-lughente.png" alt="LUGHÈNTE Ristorante">
+    <p>Ristorante contemporaneo | Sardegna</p>
+  </header>
+
+  <div class="hero">
+    <h2>Esperienze di gusto e luce</h2>
+  </div>
+
+  <section class="section">
+    <h2>Chi siamo</h2>
+    <p>LUGHÈNTE nasce dall'incontro tra la tradizione sarda e la visione contemporanea dello chef Andrea. Laureato in relazioni internazionali e formato in accademia di cucina, Andrea ha costruito il suo percorso tra ristoranti stellati e collaborazioni di lungo corso. Oggi guida una cucina che rispetta la materia prima, affina la tecnica e cerca l’essenziale con intelligenza. Ogni piatto vuole essere luce: LUGHÈNTE, in sardo, significa proprio questo.</p>
+  </section>
+
+  <section class="section">
+    <h2>Antipasti</h2>
+    <div class="menu-grid">
+      <div class="dish">
+        <h3>Vitello Acciugato</h3>
+        <p>Vitello cotto a 52°C, uova di quaglia marinate alla giapponese, maionese alle acciughe, cappero con il suo stelo, cialda croccante.</p>
+      </div>
+      <div class="dish">
+        <h3>Piccola Frittura di Mare</h3>
+        <p>Fritto misto con molluschi, pesce e crostacei, accompagnato dalla salsa del giorno.</p>
+      </div>
+      <div class="dish">
+        <h3>Calamaro, Susina, Gremolada, Mustia</h3>
+        <p>Calamaro scottato alla piastra accompagnato da una vinaigrette alle susine, salsa gremolada al prezzemolo e crema di ricotta affumicata.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 LUGHÈNTE. Tutti i diritti riservati.
+  </footer>
+</body>
+</html>
