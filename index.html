@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUGHÈNTE Ristorante</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fefefe;
+      color: #1a1a1a;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #fff;
+    }
+    header img {
+      height: 100px;
+    }
+    .hero {
+      background-image: url('https://source.unsplash.com/featured/?restaurant');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 0 10px rgba(0,0,0,0.7);
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .dish {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #f8f8f8;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo-lughente.png" alt="LUGHÈNTE Ristorante">
+    <p>Ristorante contemporaneo | Sardegna</p>
+  </header>
+
+  <div class="hero">
+    <h2>Esperienze di gusto e luce</h2>
+  </div>
+
+  <section class="section">
+    <h2>Chi siamo</h2>
+    <p>LUGHÈNTE nasce dall'incontro tra la tradizione sarda e la visione contemporanea dello chef Andrea. Laureato in relazioni internazionali e formato in accademia di cucina, Andrea ha costruito il suo percorso tra ristoranti stellati e collaborazioni di lungo corso. Oggi guida una cucina che rispetta la materia prima, affina la tecnica e cerca l’essenziale con intelligenza. Ogni piatto vuole essere luce: LUGHÈNTE, in sardo, significa proprio questo.</p>
+  </section>
+
+  <section class="section">
+    <h2>Il Menu</h2>
+    <div class="menu-grid">
+      <div class="dish">
+        <h3>Gnocchetti di patata, gambero rosso, latte fermentato</h3>
+        <p>Con zenzero candito e basilico.</p>
+      </div>
+      <div class="dish">
+        <h3>Spiedino di polpo laccato</h3>
+        <p>Humus, bietola saltata.</p>
+      </div>
+      <div class="dish">
+        <h3>Mousse al caramello, ganache bianca e arachidi</h3>
+        <p>Glassa rocher e mou salato.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Contatti & Prenotazioni</h2>
+    <p>📍 Via Caprera 48, Residenza del Sole – Capoterra (CA), fronte piazzetta commerciale<br>
+    📞 +39 392 688 3324 (anche WhatsApp)<br>
+    📧 info@lughente.it</p>
+    <p>Seguici sui social per aggiornamenti e novità:<br>
+    👉 <a href="https://www.facebook.com/share/16go7pmqxn/" target="_blank">Facebook</a><br>
+    👉 <a href="https://www.instagram.com/lughente_restaurant?igsh=MXkwZ21zdmRpMW82cw==" target="_blank">Instagram</a></p>
+  </section>
+
+  <footer>
+    © 2025 LUGHÈNTE. Tutti i diritti riservati.
+  </footer>
+</body>
+</html>
